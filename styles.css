@@ -65,7 +65,7 @@ body{
   }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 370px) {
   .pages{
     font-size: 1.2em;
     padding: 3em 1.5em;
