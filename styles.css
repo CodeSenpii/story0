@@ -56,7 +56,7 @@ body{
   height: 100vh;
 }
 
-@media (max-width: 1188px) {
+@media (max-width: 1388px) {
   .pages{
     font-size: 1.8em;
     padding: 3em 1.5em;
