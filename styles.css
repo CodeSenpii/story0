@@ -56,7 +56,16 @@ body{
   height: 100vh;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 870px) {
+  .pages{
+    font-size: 1.2em;
+    padding: 3em 1.5em;
+    min-width:  319px;
+    word-spacing: 0.2em;
+  }
+}
+
+@media (max-width: 670px) {
   .pages{
     font-size: 1.2em;
     padding: 3em 1.5em;
