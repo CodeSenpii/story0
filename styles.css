@@ -59,8 +59,8 @@ body{
 @media (max-width: 988px) {
   .pages{
     font-size: 1.2em;
-    padding: 3em 1.5em;
-    min-width:  419px;
+    padding: 3em 1.2em;
+    min-width:  360px;
     word-spacing: 0.2em;
   }
 }
