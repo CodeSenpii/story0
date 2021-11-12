@@ -46,7 +46,8 @@ p{
 span{
   /* text-decoration: underline; */
   /* text-decoration-color: grey; */
-  text-shadow: 0 0 3px grey;
+  /* text-shadow: 0 0 3px grey; */
+  font-weight: bold;
 }
 
 span:hover{
