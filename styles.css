@@ -55,8 +55,8 @@ span::before{
     display: inline-block;
     border: 2px solid white;
     background-color: pink;
-    padding: 0 3px;
-    top: -75px;
+
+    top: -1px;
     border-radius: 10px 10px;
     opacity: 0;
     filter: Alpha(opacity=0);   /*window8*/
@@ -75,6 +75,7 @@ span::before{
     filter:Alpha(opacity=100);
     /*color:white;*/
     transform: translateX(-30%);
+    padding: 0px 4px;
 }
 
 .pages{
