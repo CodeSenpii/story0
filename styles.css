@@ -43,9 +43,15 @@ p{
   transform: translate(-50%, -50%); */
 
 }
+span{
+  /* text-decoration: underline; */
+  /* text-decoration-color: grey; */
+  text-shadow: 0 0 3px grey;
+}
 
 span:hover{
   color: firebrick;
+
 }
 span::before{
     content:attr(data-content);
