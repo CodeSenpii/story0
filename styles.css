@@ -87,6 +87,14 @@ span::before{
     padding: 0px 4px;
 }
 
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+  width: 5vw;
+  height: 5vw;
+  background-color: blue;
+  border-radius: 
+}
+
 .pages{
   font-size: 1.8em;
   /* font-weight:500; */
