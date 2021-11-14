@@ -46,14 +46,17 @@ p{
 span{
   /* text-decoration: underline; */
   /* text-decoration-color: grey; */
-  text-shadow: 0 0 1px tomato;
+  text-shadow: 0 0 1px navy;
+
   font-weight: 200;
+  /* position: relative; */
 }
 
 span:hover{
   color: firebrick;
-
 }
+
+
 span::before{
     content:attr(data-content);
     position: absolute;
@@ -87,12 +90,17 @@ span::before{
     padding: 0px 4px;
 }
 
-.carousel-control-next-icon,
+.carousel-control-next-icon{
+  width: 5vw;
+  height: 5vw;
+  background-color: blue;
+  border-radius: 0% 45%  45% 0%;
+}
 .carousel-control-prev-icon{
   width: 5vw;
   height: 5vw;
   background-color: blue;
-  border-radius: 
+  border-radius: 45% 0%  0% 45%;
 }
 
 .pages{
