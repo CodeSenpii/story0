@@ -93,14 +93,20 @@ span::before{
 .carousel-control-next-icon{
   width: 5vw;
   height: 5vw;
-  background-color: blue;
+  background-color: #050b45;
   border-radius: 0% 45%  45% 0%;
+  /* position: absolute;
+  right: 100px; */
+
 }
 .carousel-control-prev-icon{
   width: 5vw;
   height: 5vw;
-  background-color: blue;
+  background-color: #050b45;
   border-radius: 45% 0%  0% 45%;
+  
+  /* position: absolute;
+  left: 100px; */
 }
 
 .pages{
