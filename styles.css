@@ -46,14 +46,14 @@ p{
 span{
   /* text-decoration: underline; */
   /* text-decoration-color: grey; */
-  text-shadow: 0 0 1px navy;
+  text-shadow: 0 0 1px #050b45;
 
   font-weight: 200;
   /* position: relative; */
 }
 
 span:hover{
-  color: firebrick;
+  color: white;
 }
 
 
@@ -64,7 +64,7 @@ span::before{
     font-size: 1.3em;
     display: inline-block;
     border: 2px solid white;
-    background-color: pink;
+    background-color: #050b45;
 
     top: -1px;
     border-radius: 10px 10px;
