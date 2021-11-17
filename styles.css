@@ -59,15 +59,7 @@ h1{
   transform: translate(-50%, -50%); */
 
 }
-.last-page{
-  text-align: center;
-  background-color: white;
-}
-.last-page-img{
-  width: 15em;
-  border-radius: 15%;
-  text-align: center;
-}
+
 span{
   /* text-decoration: underline; */
   /* text-decoration-color: grey; */
@@ -140,6 +132,7 @@ span::before{
   border-radius: 0% 45%  45% 0%;
   /* position: absolute;
   right: 100px; */
+  
 
 }
 .carousel-control-prev-icon{
@@ -148,8 +141,12 @@ span::before{
   background-color: #050b45;
   border-radius: 45% 0%  0% 45%;
 
+
   /* position: absolute;
   left: 100px; */
+}
+.nav-btn{
+  visibility: hidden;
 }
 
 
@@ -193,6 +190,16 @@ span::before{
   top: 10px;
   color: #050b45;
   background-color: transparent;
+}
+
+.last-page{
+  text-align: center;
+  background-color: white;
+}
+.last-page-img{
+  width: 15em;
+  border-radius: 15%;
+  text-align: center;
 }
 
 @media (max-width: 988px) {
