@@ -24,7 +24,7 @@ p{
   top: 50%;
   transform: translate(-50%, -50%);
 } */
-.carousel1{
+/* .carousel1{
   background-color: transparent;
 }
 .carousel2{
@@ -32,7 +32,7 @@ p{
 }
 .carousel3{
   background-color: transparent;
-}
+} */
 
 .carousel1, .carousel2, .carousel3, .carousel4,
   .carousel5, .carousel6, .carousel7, .carousel8,
@@ -140,6 +140,7 @@ span::before{
   max-width: 550px;
   max-height: 790px;
   opacity: 1;
+  text-align: justify;
 }
 .page-number{
   color: grey;
