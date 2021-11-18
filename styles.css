@@ -17,13 +17,14 @@ p{
   font-family: "Merriweather",serif;
 }
 h1{
-  color: silver;
+  color: white;
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   line-height: 3em;
+  z-index: 10;
 }
 
 /* .back-page{
@@ -110,7 +111,7 @@ span::before{
 .book-cover{
   height: calc(500px + 13vh);
   width: calc(400px + 10vw);
-  background-color: brown;
+  /* background-color: brown; */
 
   z-index: 3;
   position: absolute;
@@ -123,6 +124,7 @@ span::before{
   background-image: url("bookbackground.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 
 .carousel-control-next-icon{
@@ -132,7 +134,7 @@ span::before{
   border-radius: 0% 45%  45% 0%;
   /* position: absolute;
   right: 100px; */
-  
+
 
 }
 .carousel-control-prev-icon{
