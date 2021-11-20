@@ -215,7 +215,7 @@ span::before{
     width: 10em;
   }
   .book-cover{
-    height: calc(450px + 10vh);
-    width: calc(350px + 7vw);
+    height: calc(475px + 10vh);
+    width: calc(375px + 7vw);
   }
 }
