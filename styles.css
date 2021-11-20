@@ -17,7 +17,8 @@ p{
   font-family: "Merriweather",serif;
 }
 h1{
-  color: yellowgreen;
+  color: grey;
+  text-shadow: 3px 2px 2px  black;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -212,5 +213,9 @@ span::before{
   }
   .last-page-img{
     width: 10em;
+  }
+  .book-cover{
+    height: calc(500px + 10vh);
+    width: calc(400px + 7vw);
   }
 }
